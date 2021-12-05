@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad3a2e2b-d905-4435-91de-fb427a40f106" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+    <list default="true" id="337d613b-c678-45fd-81ce-0c3629ccf1a4" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/react-Micluta_Paul.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tic-tac-toe/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tic-tac-toe/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic-tac-toe/Tema1.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tic-tac-toe/package-lock.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tic-tac-toe/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tic-tac-toe/public/favicon.ico" afterDir="false" />
@@ -16,14 +16,8 @@
       <change afterPath="$PROJECT_DIR$/tic-tac-toe/public/logo512.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tic-tac-toe/public/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tic-tac-toe/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic-tac-toe/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic-tac-toe/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic-tac-toe/src/App.test.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tic-tac-toe/src/index.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tic-tac-toe/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic-tac-toe/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic-tac-toe/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic-tac-toe/src/setupTests.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -40,7 +35,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="21ofskxqpqpyI7cWeLeKuI0j2S8" />
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="21on31EHuzaUXm7OqJI3duhdxaZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -50,19 +53,32 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Work/JavaScript -Tutorial Scrimba/learn-javascript-main" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="App.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/App.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.App.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ad3a2e2b-d905-4435-91de-fb427a40f106" name="Changes" comment="" />
-      <created>1638612570187</created>
+      <changelist id="337d613b-c678-45fd-81ce-0c3629ccf1a4" name="Changes" comment="" />
+      <created>1638616107320</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1638612570187</updated>
-      <workItem from="1638612573478" duration="2965000" />
+      <updated>1638616107320</updated>
+      <workItem from="1638616110953" duration="11599000" />
+      <workItem from="1638635642623" duration="6440000" />
+      <workItem from="1638694946563" duration="2769000" />
+      <workItem from="1638716222696" duration="337000" />
     </task>
     <servers />
   </component>
@@ -79,5 +95,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
