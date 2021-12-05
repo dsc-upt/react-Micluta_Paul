@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="337d613b-c678-45fd-81ce-0c3629ccf1a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/react-Micluta_Paul.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic-tac-toe/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic-tac-toe/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic-tac-toe/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic-tac-toe/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic-tac-toe/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic-tac-toe/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic-tac-toe/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic-tac-toe/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic-tac-toe/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic-tac-toe/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic-tac-toe/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic-tac-toe/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tic-tac-toe/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/tic-tac-toe/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tic-tac-toe/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/tic-tac-toe/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +65,7 @@
       <workItem from="1638616110953" duration="11599000" />
       <workItem from="1638635642623" duration="6440000" />
       <workItem from="1638694946563" duration="2769000" />
-      <workItem from="1638716222696" duration="337000" />
+      <workItem from="1638716222696" duration="5999000" />
     </task>
     <servers />
   </component>

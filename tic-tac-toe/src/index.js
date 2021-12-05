@@ -22,25 +22,15 @@ class Board extends React.Component {
     }
 
     render() {
-        return (
-            <div>
-                <div className="board-row">
-                    {this.renderSquare(0)}
-                    {this.renderSquare(1)}
-                    {this.renderSquare(2)}
-                </div>
-                <div className="board-row">
-                    {this.renderSquare(3)}
-                    {this.renderSquare(4)}
-                    {this.renderSquare(5)}
-                </div>
-                <div className="board-row">
-                    {this.renderSquare(6)}
-                    {this.renderSquare(7)}
-                    {this.renderSquare(8)}
-                </div>
-            </div>
-        );
+        const squares = []
+        for(let i=0; i < 3; i++) {
+            const rows = []
+            for(let j=0; j<3; j++) {
+                rows.push(this.renderSquare(i*3 +j))
+            }
+            squares.push(<div className={"board-row"}>{rows}</div>)
+        }
+        return squares
     }
 }
 
@@ -53,21 +43,22 @@ class Game extends React.Component {
             }],
             stepNumber: 0,
             xIsNext: true,
+            isDescending: true,
         };
     }
 
     handleClick(i) {
         //[columns, rows]
         const locations = [
-          [1,1],
-          [2,1],
-          [3,1],
-          [1,2],
-          [2,2],
-          [3,2],
-          [1,3],
-          [2,3],
-          [3,3],
+            [1,1],
+            [2,1],
+            [3,1],
+            [1,2],
+            [2,2],
+            [3,2],
+            [1,3],
+            [2,3],
+            [3,3],
         ];
 
         const history = this.state.history.slice(0, this.state.stepNumber + 1);
@@ -91,6 +82,12 @@ class Game extends React.Component {
         this.setState({
             stepNumber: step,
             xIsNext: (step % 2) === 0,
+        });
+    }
+
+    sortingHistory() {
+        this.setState({
+            isDescending: !this.state.isDescending
         });
     }
 
@@ -130,7 +127,10 @@ class Game extends React.Component {
                 </div>
                 <div className="game-info">
                     <div>{status}</div>
-                    <ol>{moves}</ol>
+                    <ol>{this.state.isDescending ? moves : moves.reverse()}</ol>
+                    <button onClick={() => this.sortingHistory()}>
+                        Reverse: {this.state.isDescending ? "Descending" : "Ascending"}
+                    </button>
                 </div>
             </div>
         );
